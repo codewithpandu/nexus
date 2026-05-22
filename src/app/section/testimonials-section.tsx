@@ -119,7 +119,7 @@ export default function Testimonials() {
         </div>
 
         <div className="mt-8">
-          <p className="text-center">Trusted by companies worldwide</p>
+          <p className="text-center py-8">Trusted by companies worldwide</p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4 text-center">
             {["TechStart", "Elevate", "Bloom", "DataFlow"].map((company) => (
               <p
