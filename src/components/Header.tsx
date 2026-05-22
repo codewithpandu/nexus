@@ -35,8 +35,8 @@ const navLinks: { name: string; href: string }[] = [
 
 export default function Header() {
   return (
-    <div className="fixed w-full ">
-      <div className=" max-w-7xl mx-auto flex items-center justify-between p-4">
+    <div className="fixed w-full bg-white dark:bg-background">
+      <div className="max-w-7xl mx-auto flex items-center justify-between p-4">
         <div className="inline-flex items-center gap-2">
           <span className="font-bold py-1.5 px-3 rounded-md bg-black text-white dark:bg-foreground dark:text-background">
             N
