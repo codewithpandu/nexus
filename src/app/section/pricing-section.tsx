@@ -82,10 +82,12 @@ const pricingList: PricingPlan[] = [
 
 export default function PricingSection() {
   return (
-    <section className="w-full py-16">
+    <section className="w-full pt-16 pb-24">
       <div className="container max-w-7xl mx-auto w-full p-4">
         <div>
-          <p className="dark:text-muted-foreground text-center">PRICING</p>
+          <p className="dark:text-muted-foreground text-center tracking-wide text-xl">
+            PRICING
+          </p>
           <div>
             <h3 className="text-center text-3xl font-bold py-4 md:text-5xl">
               Transparent Pricing for Every Scale
@@ -144,7 +146,7 @@ export default function PricingSection() {
             </Card>
           ))}
         </div>
-        <p className="text-center py-8">
+        <p className="text-center pt-8">
           Need something different? Contact us for a custom quote
         </p>
       </div>

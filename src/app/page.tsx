@@ -1,6 +1,8 @@
 import Header from "@/components/Header";
-import HeroSection from "./section/HeroSection";
-import PricingSection from "./section/PricingSection";
+import HeroSection from "./section/hero-section";
+import PricingSection from "./section/pricing-section";
+import Testimonials from "./section/testimonials-section";
+import Cta from "./section/cta-section";
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
       <main>
         <HeroSection />
         <PricingSection />
+        <Testimonials />
+        <Cta />
       </main>
     </div>
   );
