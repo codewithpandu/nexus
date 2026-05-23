@@ -1,4 +1,4 @@
-import { Menu as MenuIcon, TextAlignJustify } from "lucide-react";
+import { Menu as MenuIcon } from "lucide-react";
 import { ModeToggle } from "./ModeToggle";
 import { Button } from "./ui/button";
 import {
@@ -47,11 +47,11 @@ export default function Header() {
         <div className="hidden md:block">
           <NavigationMenu>
             <NavigationMenuList>
-              <NavigationMenuItem className="flex">
+              <NavigationMenuItem className="flex gap-4">
                 {navLinks.map((link) => (
-                  <NavigationMenuLink asChild key={link.name}>
-                    <Link href={link.href}>{link.name}</Link>
-                  </NavigationMenuLink>
+                  <Link key={link.name} href={link.href}>
+                    {link.name}
+                  </Link>
                 ))}
               </NavigationMenuItem>
             </NavigationMenuList>
