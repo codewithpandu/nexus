@@ -53,7 +53,7 @@ export default function Testimonials() {
     );
   };
   return (
-    <section className="w-full pb-24">
+    <section className="w-full pb-24" id="testimonials">
       <div className="container max-w-7xl mx-auto w-full p-4">
         <div>
           <p className="dark:text-muted-foreground text-center tracking-wide text-xl">

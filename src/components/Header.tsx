@@ -16,20 +16,20 @@ import {
 
 const navLinks: { name: string; href: string }[] = [
   {
-    name: "Services",
-    href: "#",
+    name: "Home",
+    href: "#home",
   },
   {
     name: "Pricing",
-    href: "#",
+    href: "#pricing",
   },
   {
     name: "Testimonials",
-    href: "#",
+    href: "#testimonials",
   },
   {
     name: "Contact",
-    href: "#",
+    href: "#cta",
   },
 ];
 

@@ -4,7 +4,7 @@ import { MoveRight } from "lucide-react";
 
 export default function Cta() {
   return (
-    <section className="pb-24">
+    <section className="pb-24" id="cta">
       <div className="container max-w-7xl mx-auto w-full p-4">
         <Card className="dark:bg-background border hover:border-primary h-full w-full max-w-4xl mx-auto md:px-8 py-16">
           <CardContent className="flex flex-col gap-8 items-center">

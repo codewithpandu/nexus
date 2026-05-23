@@ -4,7 +4,7 @@ import { Code, MoveRight, Sparkles, Zap } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <section className="w-full">
+    <section className="w-full" id="home">
       <div className="flex justify-center items-center pt-48 pb-16">
         <div className="container max-w-7xl mx-auto p-4">
           <div>

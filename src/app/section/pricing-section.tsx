@@ -82,7 +82,7 @@ const pricingList: PricingPlan[] = [
 
 export default function PricingSection() {
   return (
-    <section className="w-full pt-16 pb-24">
+    <section className="w-full pt-16 pb-24" id="pricing">
       <div className="container max-w-7xl mx-auto w-full p-4">
         <div>
           <p className="dark:text-muted-foreground text-center tracking-wide text-xl">
