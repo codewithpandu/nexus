@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer>
-      <div className="container max-w-7xl mx-auto w-full p-4 ">
+      <div className="container max-w-7xl mx-auto w-full p-4">
         <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:place-items-end pb-4">
           <div>
             <div className="inline-flex items-center gap-2">
@@ -97,7 +97,7 @@ export default function Footer() {
 
         <hr className="border-foreground" />
         <div className="py-4">
-          <p>© 2026 Nexus Digital. All rights reserved.</p>
+          <p className="text-sm">© 2026 Nexus Digital. All rights reserved.</p>
         </div>
       </div>
     </footer>
